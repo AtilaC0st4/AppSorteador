@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        // Referência ao botão "Começar"
+
         val btnIrParaOSorteador = findViewById<Button>(R.id.btnIrParaOSorteador)
 
-        // Configura o clique no botão para ir para a SorteadorActivity
+
         btnIrParaOSorteador.setOnClickListener {
             val intent = Intent(this, SorteadorActivity::class.java)
             startActivity(intent)
