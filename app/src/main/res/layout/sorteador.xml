@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Digite o valor mínimo do intervalo:"
+        android:text="Digite o valor maximo do intervalo:"
         android:textColor="#6A6A6A"
         android:textSize="20sp"
         android:textStyle="bold"

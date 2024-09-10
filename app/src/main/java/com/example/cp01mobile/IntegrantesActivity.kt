@@ -13,12 +13,12 @@ class IntegrantesActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.integrantes)
 
-        // Referência ao botão "Voltar"
+
         val btnVoltar = findViewById<Button>(R.id.bntVoltar2)
 
-        // Configura o clique no botão para voltar à MainActivity
+
         btnVoltar.setOnClickListener {
-            finish()  // Encerra a SorteadorActivity e volta para a MainActivity
+            finish()
         }
 
     }
